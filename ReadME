@@ -1,1 +1,37 @@
+# Traffic Object Detection Dataset
 
+## About the Project
+
+This is a small image annotation project created to practice data annotation using CVAT.
+
+The images contain common traffic and road objects. Each object was labelled using bounding boxes in CVAT.
+
+## Tools Used
+
+- CVAT
+- COCO 1.0 Annotation Format
+
+## Classes
+
+The following objects were annotated:
+
+- Car
+- Bus
+- Truck
+- Motorcycle
+- Person
+
+## Annotation Method
+
+Bounding Box Annotation was mainly used to identify and label objects in the images.
+
+The annotations were exported in COCO 1.0 format and are available in the `annotations` folder.
+
+## Dataset Structure
+
+```text
+Traffic-Object-Detection-Dataset/
+├── images/
+├── annotations/
+│   └── instances_default.json
+└── README.md
